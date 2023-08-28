@@ -1,0 +1,233 @@
+[
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "auth",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "report",
+        "model": "author"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "report",
+        "model": "article"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "dyucky2vg7yy8ou9xgfgyyclatg0gg3f",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hCg0KEu3XsGMgyDVA0kpV0Z765NutDtf-_9lwi4rSVsnZcwJ3EWWpx-t4j04LqDdMd6a5JaXZc5yl2RB-3y2hI_L4f7d1Cwl28NMXHMinkaFFKijFoxEefRjeT9RNllF9E6nYxR1gOAtmAMaj2Aw0G8PyToOFg:1qaXFt:DWd-DiSdKvTuk_bNNEevmrGYZOeQzg6muFBEVG8kAe0",
+        "expire_date": "2023-09-11T08:05:49.229Z"
+    }
+},
+{
+    "model": "report.author",
+    "pk": 1,
+    "fields": {
+        "prefix": 1,
+        "first_name": "Precha",
+        "last_name": "chainara"
+    }
+},
+{
+    "model": "report.author",
+    "pk": 2,
+    "fields": {
+        "prefix": 3,
+        "first_name": "praewpan",
+        "last_name": "sukkasem"
+    }
+},
+{
+    "model": "report.article",
+    "pk": 1,
+    "fields": {
+        "author": 1,
+        "title": "พ่อฆ่ายกครัว 3 แม่ลูก แต่ตัวเองไม่ตาย สลดซ้ำแอปเงินกู้หลอกเงินไปหมด ไร้เงินทำศพ",
+        "detail": "จากกรณีเช้าวันนี้ (28 ส.ค. 66) เกิดเหตุสุดสลด ที่ จ.สมุทรปราการ ตำรวจ สภ.บางแก้ว ได้รับแจ้งเหตุ ฆ่ายกครัว 3 ศพ โดยผู้ก่อเหตุ คือผู้เป็นพ่อ ฆ่าภรรยาและลูกชายอายุ 13 ปี ก่อนพยายามปลิดชีพตัวเอง จนบาดเจ็บสาหัส",
+        "date_created": "2023-08-28T08:13:46.842Z",
+        "date_updated": "2023-08-28T08:13:46.842Z"
+    }
+},
+{
+    "model": "report.article",
+    "pk": 2,
+    "fields": {
+        "author": 2,
+        "title": "เตือนไวรัสซิการะบาดหนัก เดือนเดียวพุ่ง 266 ราย หญิงตั้งครรภ์เสี่ยงลูกพิการ ศีรษะเล็ก",
+        "detail": "กรมควบคุมโรค เตือนประชาชน ระบุว่า ช่วงนี้เป็นระยะการระบาดของโรคไข้เลือดออก เนื่องจากน้ำฝนไปตกค้างอยู่ตามภาชนะที่อาจมีไข่ยุงลายที่เป็นพาหะนำโรค แนะนำให้รีบกำจัดภาชนะที่เป็นแหล่งเพาะพันธุ์ เพื่อลดความเสี่ยงของโรคต่างๆ โดยเฉพาะโรคติดเชื้อไวรัสซิกา ที่ทำให้ทารกในท้องพิการ",
+        "date_created": "2023-08-28T08:14:35.327Z",
+        "date_updated": "2023-08-28T08:14:35.327Z"
+    }
+},
+{
+    "model": "report.article",
+    "pk": 3,
+    "fields": {
+        "author": 1,
+        "title": "เป็นงง คลิปสาวพาน้องหมาซามอยด์ข้ามถนน แค่ 14 วิ แต่คนวนดูไม่จบสักที",
+        "detail": "ใจละลายไปตามๆ คลิปสาวจูงน้องหมาซามอยด์ข้ามถนน วนดูกันไม่จบ ล่าสุด มีคนเปิดวาร์ปแล้ว ทั้งสวย เซ็กซี่ แถมรักสัตว์\r\nกลายเป็นโพสต์ไวรัลบนโลกออนไลน์ของไต้หวัน หลังจากชายคนหนึ่งโพสต์ลงเฟซบุ๊ก ว่าเขาอยู่ที่ถนนจงเหอกวงฟู่ นครนิวไทเป เมื่อเที่ยงวันนี้ (28 ส.ค.) พร้อมถ่ายรูปและคลิปขณะหญิงสาวรายหนึ่งพยายามจูงสุนัขซามอยด์ข้ามทางม้าลาย\r\nผู้โพสต์ระบุแคปชั่นแบบติดตลกว่า \"แม้ว่าไฟจะเป็นสีเขียว แต่หากไม่จอดรถให้คนเดินถนนจะถูกปรับ 6,000 ดอลลาร์ไต้หวัน (ประมาณ 6,600 บาท) ดังนั้นผมจึงเฝ้าดูการชักเย่อของเธอกับสุนัขอย่างตั้งใจ\"",
+        "date_created": "2023-08-28T08:15:41.145Z",
+        "date_updated": "2023-08-28T08:15:41.145Z"
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$LzIxIbFfeD49ByNtSVdpqT$kI6GOhi7/xBdm/dOPSBE6bYtUntUdA8+IgUaEvGUC/A=",
+        "last_login": "2023-08-28T08:05:49.224Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2023-08-28T08:04:54.044Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2023-08-28T08:06:28.010Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "report",
+            "author"
+        ],
+        "object_id": "1",
+        "object_repr": "Precha chainara",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2023-08-28T08:07:17.419Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "report",
+            "author"
+        ],
+        "object_id": "2",
+        "object_repr": "praewpan sukkasem",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2023-08-28T08:13:46.846Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "report",
+            "article"
+        ],
+        "object_id": "1",
+        "object_repr": "พ่อฆ่ายกครัว 3 แม่ลูก แต่ตัวเองไม่ตาย สลดซ้ำแอปเงินกู้หลอกเงินไปหมด ไร้เงินทำศพ",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2023-08-28T08:14:35.331Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "report",
+            "article"
+        ],
+        "object_id": "2",
+        "object_repr": "เตือนไวรัสซิการะบาดหนัก เดือนเดียวพุ่ง 266 ราย หญิงตั้งครรภ์เสี่ยงลูกพิการ ศีรษะเล็ก",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2023-08-28T08:15:41.180Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "report",
+            "article"
+        ],
+        "object_id": "3",
+        "object_repr": "เป็นงง คลิปสาวพาน้องหมาซามอยด์ข้ามถนน แค่ 14 วิ แต่คนวนดูไม่จบสักที",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}
+]
