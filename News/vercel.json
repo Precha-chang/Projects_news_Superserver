@@ -1,0 +1,26 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "News/wsgi.py",
+        "use": "@vercel/python"
+      },
+      {
+        "src": "build_files.sh",
+        "use": "@vercel/statics-build",
+        "config": {
+          "distDir": "staticfiles_build"
+        }
+      }
+    ],
+    "routes": [
+      {
+        "src": "/statics/(.*)",
+        "dest": "/statics/$1"
+      },
+      {
+        "src": "/(.*)",
+        "dest": "News/wsgi.py"
+      }
+    ]
+  }
